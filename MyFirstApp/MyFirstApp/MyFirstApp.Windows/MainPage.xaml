@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="MyFirstApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyFirstApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Border x:Name="InflamesBorder" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="225" Margin="327,261,0,0" VerticalAlignment="Top" Width="268" Tapped="InflamesBorder_Tapped">
+            <Border.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Logos/inflameslogo.jpg"/>
+            </Border.Background>
+        </Border>
+        <Border x:Name="JudasPriestBorder" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="228" Margin="775,261,0,0" VerticalAlignment="Top" Width="274" Tapped="JudasPriestBorder_Tapped">
+            <Border.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Logos/judaspriest.jpg"/>
+            </Border.Background>
+        </Border>
+
+    </Grid>
+</Page>
